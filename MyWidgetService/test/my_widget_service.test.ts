@@ -1,13 +1,13 @@
 // import * as cdk from 'aws-cdk-lib';
 // import { Template } from 'aws-cdk-lib/assertions';
-// import * as AwsTypescript from '../lib/aws-typescript-stack';
+// import * as MyWidgetService from '../lib/my_widget_service-stack';
 
 // example test. To run these tests, uncomment this file along with the
-// example resource in lib/aws-typescript-stack.ts
+// example resource in lib/my_widget_service-stack.ts
 test('SQS Queue Created', () => {
 //   const app = new cdk.App();
 //     // WHEN
-//   const stack = new AwsTypescript.AwsTypescriptStack(app, 'MyTestStack');
+//   const stack = new MyWidgetService.MyWidgetServiceStack(app, 'MyTestStack');
 //     // THEN
 //   const template = Template.fromStack(stack);
 

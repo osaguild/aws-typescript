@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { AwsTypescriptStack } from '../lib/aws-typescript-stack';
+import { MyWidgetServiceStack } from '../lib/my_widget_service-stack';
 
 const app = new cdk.App();
-new AwsTypescriptStack(app, 'AwsTypescriptStack', {
+new MyWidgetServiceStack(app, 'MyWidgetServiceStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */

@@ -1,8 +1,8 @@
 {
-  "name": "aws-typescript",
+  "name": "my_widget_service",
   "version": "0.1.0",
   "bin": {
-    "aws-typescript": "bin/aws-typescript.js"
+    "my_widget_service": "bin/my_widget_service.js"
   },
   "scripts": {
     "build": "tsc",

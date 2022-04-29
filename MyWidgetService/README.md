@@ -14,16 +14,13 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `cdk synth`       emits the synthesized CloudFormation template
 
 ## setup
-- `npm install -g aws-cdk`
+- `cdk init --language typescript`
 - `cdk synth`
-- `mkdir resources`
-- create file `./resources/widgets.js`
-- create file `./lib/widget_service.ts`
-- edit file `./lib/aws-typescript-stack.ts`
 - `cdk deploy`
-- `curl -X GET 'https://1nn56i8rg1.execute-api.us-east-1.amazonaws.com/prod/'`
-- `curl -X POST 'https://1nn56i8rg1.execute-api.us-east-1.amazonaws.com/prod/example'`
-- `curl -X GET 'https://1nn56i8rg1.execute-api.us-east-1.amazonaws.com/prod/'`
-- `curl -X GET 'https://1nn56i8rg1.execute-api.us-east-1.amazonaws.com/prod/example'`
-- `curl -X DELETE 'https://1nn56i8rg1.execute-api.us-east-1.amazonaws.com/prod/example'`
-- `curl -X GET 'https://1nn56i8rg1.execute-api.us-east-1.amazonaws.com/prod/'`
+- `curl -X GET 'https://jdxbckq972.execute-api.us-east-1.amazonaws.com/prod/'`
+- `curl -X POST 'https://jdxbckq972.execute-api.us-east-1.amazonaws.com/prod/example'`
+- `curl -X GET 'https://jdxbckq972.execute-api.us-east-1.amazonaws.com/prod/'`
+- `curl -X GET 'https://jdxbckq972.execute-api.us-east-1.amazonaws.com/prod/example'`
+- `curl -X DELETE 'https://jdxbckq972.execute-api.us-east-1.amazonaws.com/prod/example'`
+- `curl -X GET 'https://jdxbckq972.execute-api.us-east-1.amazonaws.com/prod/'`
+- `cdk destroy`
