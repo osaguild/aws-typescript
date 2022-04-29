@@ -14,7 +14,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `cdk synth`       emits the synthesized CloudFormation template
 
 ## setup
-- `cdk init app --language typescript`
+- `cdk init --language typescript`
 - `cdk synth`
 - `cdk deploy`
 - `cdk destroy`
